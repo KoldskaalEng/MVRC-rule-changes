@@ -1,51 +1,80 @@
-# MVRC-rule-changes
+# MVRC rule changes
 A list of suggestions for potential rule changes in mvrc
 
-The list is broken up into 2 different type of rule changes, one-time changes, and significant changes. One-time changes are changes in RVs, RSs or mandatory parts, simple changes to the simulation case. Implementing these types of rules is a quick one-time process and don't required additional scrutineering. Significant changes are characterized by new "types" of rules, new types of results, etc. These changes might require signicant scrutineering effort, or a significant time investment to implement. 
-Each suggestion is first descriped, then categorized into one of two types: type 1: onetime changes, or 2 significant changes. Finally community members that have opinions for each rule change are listed. 
+Each suggestion is numbered and descriped. The general attitude towards each suggestion is stated.  
 
-These are the suggestions as of September 29th 2022
+These are the suggestions as of January 1st 2023
 
-## Number of heat Exchangers, 1
-change from 1, to up to 2. 
-### Approved: 
+##1. Reduce cooling demand
+increase porosity or reduce flow requirement
+Generally accepted
+
+##2. Number of heat Exchangers
+change from 1, to "up to 2". 
+Generally accepted
+<!--- ### Approved: 
 LegendaryM, variante, G-raph, Koldskaal, CAEdevice
 ### Disapproved:
-none
+none --->
 
-## Radiator rotation, 1
+ ##3. Radiator rotation
 Remove the limitation: only y rotation. 
-### Approved:
+Generally accepted
+<!--- ### Approved:
 LegendaryM, variante, G-raph, Koldskaal, CAEdevice
 ### Disapproved:
-none
+none --->
 
-## Radiator minimum size, 1
+##4. Radiator minimum size
 Remove limitation: minimum 180000 mm2
-Remove the limitation: only y rotation. 
-### Approved:
+Remove limitation: only y rotation. 
+Generally accepted
+<!--- ### Approved:
 LegendaryM, variante, G-raph, Koldskaal, CAEdevice
 ### Disapproved:
-none
+none --->
 
-## Resurfacing suspension, 1
-### Approved:
+##5. Change suspension
+many different solutions; resurfacing, some freedom, different models to choose from, rotation 
+Generally accepted
+<!--- ### Approved:
 LegendaryM, variante, G-raph, Koldskaal, CAEdevice
 ### Disapproved:
-none
+none --->
 
-## Make more realistic front wheel wake, 1 
+##6. Make more realistic front wheel wake
 Resurface tyre model, change tyre surface roughness, lift tyre to improve contact patch
-### Approved:
+Generally accepted
+<!--- ### Approved:
 LegendaryM, variante, G-raph, Koldskaal, CAEdevice
 ### Disapproved:
-none
+none --->
 
-## Reduce size of box on top of engine, 1
-### Approved:
+##7. Reduce size of mandatory parts in enginebay
+Generally accepted
+<!--- ### Approved:
 LegendaryM, variante, G-raph, Koldskaal, CAEdevice
 ### Disapproved:
-none
+none --->
+
+##8. Minimum radius rule for frontwing and rearwing endplates
+Measure radii or a mandatory curved part
+Measuring radius could be difficult to implement.
+not generally accepted
+
+##9. More stringent rules for nose
+Less subjective scrutineering. 
+Internal/mandatory volume, minimum area rule, shadow rule.
+Generally accepted
+
+##10. Decrease size of chassis RV
+
+##11. Limit number of elements in beam wing area 
+Generally dismissed
+
+##12. More freedom around floor edge
+Introduce floor-edge-wing-RV, exclude this region from floor-plan-RS
+
 
 
 
